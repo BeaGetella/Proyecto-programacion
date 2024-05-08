@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #CBFFE6;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.VentanaMultasController">
+   <children>
+      <Text layoutX="213.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Multas por entregas tardías" wrappingWidth="205.166015625">
+         <font>
+            <Font name="Bodoni MT Condensed" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="266.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Detalle de la multa" />
+      <TextField layoutX="37.0" layoutY="135.0" />
+      <TextField layoutX="35.0" layoutY="274.0" prefHeight="25.0" prefWidth="181.0" />
+      <Text layoutX="37.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ISBN del libro a devolver: ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="37.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha de devolución tardía:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="35.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Monto a pagar:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Button layoutX="380.0" layoutY="140.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="110.0" style="-fx-background-color: #B967FF;" text="Registrar Multa" />
+      <Button layoutX="380.0" layoutY="213.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="110.0" style="-fx-background-color: #B967FF;" text="Regresar" />
+      <DatePicker layoutX="35.0" layoutY="200.0" prefHeight="24.0" prefWidth="195.0" />
+   </children>
+</AnchorPane>

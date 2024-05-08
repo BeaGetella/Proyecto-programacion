@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="25.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buscar por nombre del libro:" />
+      <TextField layoutX="24.0" layoutY="158.0" prefHeight="25.0" prefWidth="446.0" />
+      <Button layoutX="470.0" layoutY="158.0" mnemonicParsing="false" style="-fx-background-color: #BDBDBD;" text="Buscar Libro" textFill="#fff8f8" />
+      <Pane layoutY="14.0" prefHeight="38.0" prefWidth="600.0" style="-fx-background-color: #BDBDBD;">
+         <children>
+            <Text fill="#fcf1f1" layoutX="223.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Préstamo de Libros">
+               <font>
+                  <Font name="Yu Gothic UI Semibold" size="21.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <ImageView fitHeight="106.0" fitWidth="81.0" layoutX="25.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/ciudades%20de%20papel.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="81.0" layoutX="121.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/almendra.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="81.0" layoutX="401.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/juego%20de%20poder.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="81.0" layoutX="307.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/demian.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="81.0" layoutX="213.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/teoria%20de%20kim.jpeg" />
+         </image>
+      </ImageView>
+      <Text layoutX="25.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Búsquedas recientes" />
+      <Text layoutX="25.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buscar por ISBN:" />
+      <TextField layoutX="24.0" layoutY="95.0" prefHeight="25.0" prefWidth="225.0" />
+      <Button layoutX="255.0" layoutY="95.0" mnemonicParsing="false" style="-fx-background-color: #BDBDBD;" text="Buscar ISNB" textFill="#f8efef" />
+   </children>
+</AnchorPane>
